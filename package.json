@@ -4,13 +4,16 @@
   "description": "tech blog homework 14",
   "main": "server.js",
   "scripts": {
-    "test": "npm start server.js",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgrmshelton/tech_blog.git"
+    "url": "git+https://github.com/jgrmshelton/tech_blog.git",
+    "start": "node server.js"
   },
+  "keywords": [
+    "Tech_Blog"
+  ],
   "author": "jgrmshelton",
   "license": "ISC",
   "bugs": {
@@ -26,8 +29,5 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.3.2",
     "sequelize": "^6.8.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.1.0"
   }
 }
