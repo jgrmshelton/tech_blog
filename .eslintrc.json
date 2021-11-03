@@ -7,8 +7,8 @@
     "extends": [
         "standard"
     ],
-    "parserOptions": {
-        "ecmaVersion": 12
+    "parserOptions": { 
+        "ecmaVersion": "latest"
     },
     "rules": {
         "no-undef-init": "error",
